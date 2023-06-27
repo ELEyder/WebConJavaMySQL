@@ -14,6 +14,9 @@ import java.sql.Statement;
  * @author Eyder
  */
 public class Basedatos {
+    static String usuario="root";
+    static String clave="usbw";
+    static String usrl="";
     Connection con;
     public Basedatos() {
         try{
